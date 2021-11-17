@@ -5,8 +5,7 @@ import streamlit as st
 
 
 st.write("""
-# weather forcast
-still in progress
+#Tamil Nadu Weather Forecast
 """)
 
 city =  st.selectbox('City',
