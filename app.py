@@ -17,7 +17,7 @@ model = ARIMA(df, order=(5,1,0))
 model_fit = model.fit()
 forecast = int(model_fit.forecast(steps=2)[1:])
 
-if st.button('Predict'):
+if st.button('Forecast'):
     today = date.today()
-    st.write('Date: ', today , 'Weather: ', forecast, '°C')
+    st.write('City', city, 'Date: ', today , 'Weather: ', forecast, '°C')
 else: pass
