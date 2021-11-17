@@ -15,7 +15,7 @@ df.set_index(['localtime'], inplace=True)
 df.dropna(inplace=True)
 model = ARIMA(df, order=(5,1,0))
 model_fit = model.fit()
-forecast = model_fit.forecast(steps=1)
+forecast = model_fit.forecast(steps=2)
 
 city =  st.selectbox('City',
         ('Chennai', 'x'))
