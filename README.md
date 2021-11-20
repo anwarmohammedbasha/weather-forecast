@@ -1,14 +1,18 @@
-# tamil nadu weather forecast
+# Tamil Nadu Weather Forecast
 
-Hi, I'm Currently working on this project (weather forecast).  
+Hi, I'm Currently working on this weather forecast project.  
 
-team member
- - Anwar (https://www.linkedin.com/in/anwarmohamedbasha/)
- - Micklin Steffy (https://www.linkedin.com/in/micklinsteffyl/)
- - Nandhini (https://www.linkedin.com/in/nandhini-p-b18aab1b4/)
+# Weather Forecast:
+ A weather forecast is a statement saying what the weather will be like the next day or for the next few days.
+# Time series analysis: 
+ Time series analysis is a specific way of analyzing a sequence of data points collected over an interval of time.
 
-data source: https://wayscript.com/user/narasimha_rao
- - data collected by Narasimha Rao (https://www.linkedin.com/in/narasimha-rao-13b361169/)
+Team Members
+ - # Micklin Steffy (20-PDS-004) (https://www.linkedin.com/in/micklinsteffyl/)
+ - # Anwar (20-PDS-023) (https://www.linkedin.com/in/anwarmohamedbasha/)
+ - # Nandhini (20-PDS-026)(https://www.linkedin.com/in/nandhini-p-b18aab1b4/)
 
-app: https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
+Data source: https://wayscript.com/user/narasimha_rao
+ - Data collected by Narasimha Rao (https://www.linkedin.com/in/narasimha-rao-13b361169/)
 
+Application link: https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
