@@ -16,6 +16,7 @@ model = ARIMA(df, order=(5,1,0))
 model_fit = model.fit()
 
 if st.button('Forecast'):
-    st.write('Date: ', date.today() , 'Weather: ', int(model_fit.forecast(steps=3)[1:2]), '°C')
-    st.write('Date: ', date.today() + timedelta(1)  , 'Weather: ', int(model_fit.forecast(steps=3)[2:]), '°C')
+    st.write('Date: ', date.today() , 'Weather: ', int(model_fit.forecast(steps=9)[1:2]), '°C')
+    for i in range(1, 7):
+        st.write('Date: ', date.today() + timedelta(i)  , 'Weather: ', int(model_fit.forecast(steps=9)[i+1:i+2]), '°C')
 else: pass
