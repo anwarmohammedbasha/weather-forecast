@@ -8,12 +8,9 @@ Hi, I'm Currently working on this weather forecast project.
  Time series analysis is a specific way of analyzing a sequence of data points collected over an interval of time.
 
 Team Members
- - ### Micklin Steffy (20-PDS-004) 
-  -   (https://www.linkedin.com/in/micklinsteffyl/)
- - ### Anwar (20-PDS-023)
-  -   (https://www.linkedin.com/in/anwarmohamedbasha/)
- - ### Nandhini (20-PDS-026)
-  -   (https://www.linkedin.com/in/nandhini-p-b18aab1b4/)
+ - ### Micklin Steffy (20-PDS-004) #### (https://www.linkedin.com/in/micklinsteffyl/)
+ - ### Anwar (20-PDS-023) #### (https://www.linkedin.com/in/anwarmohamedbasha/)
+ - ### Nandhini (20-PDS-026) #### (https://www.linkedin.com/in/nandhini-p-b18aab1b4/)
 
 Data source: 
  TN Weather Data is Collected from the wayscript api by by Narasimha Rao (https://www.linkedin.com/in/narasimha-rao-13b361169/).
