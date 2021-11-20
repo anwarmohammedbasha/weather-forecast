@@ -8,8 +8,7 @@ st.write("""
 Team Project""")
 
 city =  st.selectbox('City', ('Ariyalur',  'Chennai',  'Coimbatore',  'Cuddalore',  'Dharmapuri',  'Dindigul',  'Erode',  'Kancheepuram',  'Kanyakumari',  'Karur',  'Krishnagiri',  'Madurai',  'Nagapattinam',  'Namakkal',  'Perambalur',  'Pudukkottai',  'Ramanathapuram',  'Salem',  'Sivaganga',  'Thanjavur',  'Thiruvarur',  'Tiruchirappalli',   'Tirunelveli',  'Tirupur',  'Tiruvallur',  'Tiruvannamalai',  'Vellore',  'Villupuram'))
-cols = ['name', 'localtime', 'temp_c']
-df = pd.read_csv('weather_data.csv', usecols=cols, parse_dates=True)
+df = pd.read_csv('weather_data.csv', usecols=['name', 'localtime', 'temp_c'], parse_dates=True)
 df = df.loc[df['name'] == city, ['localtime', 'temp_c']]
 df.set_index(['localtime'], inplace=True)
 df.dropna(inplace=True)
