@@ -1,6 +1,6 @@
 import pandas as pd
 from  statsmodels.tsa.arima.model import ARIMA
-from datetime import date
+from datetime import date, timedelta
 import streamlit as st 
 
 st.write("""
@@ -14,9 +14,8 @@ df.set_index(['localtime'], inplace=True)
 df.dropna(inplace=True)
 model = ARIMA(df, order=(5,1,0))
 model_fit = model.fit()
-forecast = int(model_fit.forecast(steps=2)[1:])
 
 if st.button('Forecast'):
-    today = date.today()
-    st.write('Date: ', today , 'Weather: ', forecast, '°C')
+    st.write('Date: ', date.today() , 'Weather: ', int(model_fit.forecast(steps=3)[1:]), '°C')
+    st.write('Tomorrow: ', date.today() + timedelta(1)  , 'Weather: ', int(model_fit.forecast(steps=3)[2:]), '°C')
 else: pass
