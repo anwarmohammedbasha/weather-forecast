@@ -1,4 +1,4 @@
-#import pandas as pd
+import pandas as pd
 from  statsmodels.tsa.arima.model import ARIMA
 from datetime import date, timedelta
 import streamlit as st 
