@@ -19,8 +19,16 @@ We gathered the weather data for Tamil Nadu with the help of **WeatherAPI.com**,
 #### Step 1: Clicking on the link below, or simply pasting the url into the address bar, will take you to the application page.
 ##### https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
 
-#### Step 2:
+#### Step 2: There will be a drop down list of cities in Tamil Nadu on the application screen. Choose the city for which you want to forecast weather from the dropdown menu, for example, Chennai.
 ![Screenshot](/images/Screenshot1.png)
+
+![Screenshot](/images/Screenshot2.png)
+
+#### Step 3: After selecting the cities, the current weather will be displayed. To forecast the weather for the next seven days, click the forcast button.
+![Screenshot](/images/Screenshot3.png)
+
+
+
 #### Data source: 
 https://wayscript.com/script/F-Y0r1eb
 
