@@ -1,6 +1,6 @@
 # Mini Project 
 
-### Title: Tamil Nadu Weather Forecast
+## Title: Tamil Nadu Weather Forecast
 Email questions and comments to anwarmohamedbasha@gmail.com
 
 ### Team Members
