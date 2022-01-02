@@ -27,7 +27,7 @@ We gathered the weather data for Tamil Nadu with the help of [**WeatherAPI.com**
 #### Step 3: After selecting the cities, the current weather will be displayed. To forecast the weather for the next seven days, click the forcast button.
 ![Screenshot](/images/Screenshot3.png)
 
-
+### Frequently Asked Questions (FAQ)
 
 #### Data source: 
 https://wayscript.com/script/F-Y0r1eb
