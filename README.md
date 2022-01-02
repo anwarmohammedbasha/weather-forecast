@@ -20,7 +20,7 @@ We gathered the weather data for Tamil Nadu with the help of **WeatherAPI.com**,
 ##### https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
 
 #### Step 2:
-![Screenshot](assets/images/Screenshot 1.png)
+![Screenshot](/assets/images/Screenshot 1.png)
 #### Data source: 
 https://wayscript.com/script/F-Y0r1eb
 
