@@ -30,14 +30,23 @@ We gathered the weather data for Tamil Nadu with the help of [**WeatherAPI.com**
 
 ### Frequently Asked Questions (FAQ)
 
-#### 1. What is Time series analysis ?
-Time series analysis is a specific way of analyzing a sequence of data points collected over an interval of time. 
+#### 1. Is the data updated on a regular basis, and if so, is it done manually or automatically?
+Yes, the data is automatically and daily updated.
 
-#### 2. What is Weather forecast ?
-Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.
+#### 2. What is API?
+API is an acronym for Application Programming Interface that software uses to access data.
 
 #### 3. What is the data's origin? 
 The weather data for Tamil Nadu with the help of [**WeatherAPI.com**](https://www.weatherapi.com/), a free weather API provider, and [**WayScript**](https://wayscript.com/), a scripting platform. <br />
 **Link**: https://wayscript.com/script/F-Y0r1eb
 
+#### 4. What is Time series analysis ?
+Time series analysis is a specific way of analyzing a sequence of data points collected over an interval of time. 
 
+#### 5. What is Weather forecast ?
+Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.
+
+#### 6. Why is ARIMA used?
+Autoregressive integrated moving average (ARIMA) models predict future values based on past values. ARIMA makes use of lagged moving averages to smooth time series data. They are widely used in technical analysis to forecast future security prices.
+
+#### 7. 
