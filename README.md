@@ -22,3 +22,5 @@ We gathered the weather data for Tamil Nadu with the help of WeatherAPI.com, a f
 
 #### Data source: 
 https://wayscript.com/script/F-Y0r1eb
+
+#### Email questions and comments to anwarmohamedbasha@gmail.com
