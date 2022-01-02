@@ -16,7 +16,7 @@ We gathered the weather data for Tamil Nadu with the help of WeatherAPI.com, a f
 
 ### How to Use This Application
 
-#### Step 1: Click on the link below: 
+#### Step 1: Clicking on the link below, or simply pasting the url into the address bar, will take you to the application page.
 ##### https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
 
 
