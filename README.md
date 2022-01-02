@@ -4,9 +4,9 @@
 
 ### Team Members
 
- * Micklin Steffy (20-PDS-004) (https://www.linkedin.com/in/micklinsteffyl/)
- * Anwar (20-PDS-023) (https://www.linkedin.com/in/anwarmohamedbasha/)
- * Nandhini (20-PDS-026) (https://www.linkedin.com/in/nandhini-p-b18aab1b4/)
+ * [Micklin Steffy (20-PDS-004)](https://www.linkedin.com/in/micklinsteffyl/)
+ * [Anwar (20-PDS-023)](https://www.linkedin.com/in/anwarmohamedbasha/)
+ * [Nandhini (20-PDS-026)](https://www.linkedin.com/in/nandhini-p-b18aab1b4/)
 
 ### Summary
 
