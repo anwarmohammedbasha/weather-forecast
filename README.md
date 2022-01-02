@@ -30,7 +30,14 @@ We gathered the weather data for Tamil Nadu with the help of [**WeatherAPI.com**
 
 ### Frequently Asked Questions (FAQ)
 
-#### Data source: 
-https://wayscript.com/script/F-Y0r1eb
+#### 1. What is Time series analysis ?
+Time series analysis is a specific way of analyzing a sequence of data points collected over an interval of time. 
+
+#### 2. What is weather forecast ?
+Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.
+
+#### 3. what is the data's origin? 
+The weather data for Tamil Nadu with the help of [**WeatherAPI.com**](https://www.weatherapi.com/), a free weather API provider, and [**WayScript**](https://wayscript.com/), a scripting platform.
+Link: https://wayscript.com/script/F-Y0r1eb
 
 
