@@ -48,5 +48,3 @@ Weather forecasting is the application of science and technology to predict the 
 
 ### 6. Why is ARIMA used?
 Autoregressive integrated moving average (ARIMA) models predict future values based on past values. ARIMA makes use of lagged moving averages to smooth time series data. They are widely used in technical analysis to forecast future security prices.
-
-### 7. 
