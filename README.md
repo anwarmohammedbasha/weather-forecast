@@ -14,12 +14,12 @@ A weather forecast is a prediction of how the weather will be the following day 
 
 We gathered the weather data for Tamil Nadu with the help of WeatherAPI.com, a free weather API provider, and WayScript, a scripting platform. We have been gathering data since Arpil 2021. We directly import the data into github to ensure that the data is updated. We pre-processed the data with the help of pandas, a Python package, to make it suitable for modelling. We use ARIMA, a statistical analysis model, to foresee potential trends.  For modelling, we utilise the statsmodels package. Finally, we build web apps with Streamlit, a Python framework.
 
-#### Data source: 
-https://wayscript.com/script/F-Y0r1eb
-
-#### Application: 
-https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
-
 ### How to Use This Application
 
-#### Step 1:
+#### Step 1: 
+##### Click on the link below: 
+https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
+
+
+#### Data source: 
+https://wayscript.com/script/F-Y0r1eb
