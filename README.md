@@ -1,7 +1,6 @@
 # Mini Project 
 
 # Title: Tamil Nadu Weather Forecast
-Email questions and comments to anwarmohamedbasha@gmail.com
 
 ### Team Members
 
@@ -27,3 +26,5 @@ We gathered the weather data for Tamil Nadu with the help of [**WeatherAPI.com**
 
 #### Step 3: After selecting the cities, the current weather will be displayed. To forecast the weather for the next seven days, click the forcast button.
 ![Screenshot](/images/Screenshot3.png)
+
+Email questions and comments to anwarmohamedbasha@gmail.com
