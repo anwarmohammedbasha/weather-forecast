@@ -1,5 +1,20 @@
 # importing essential libraries
 
+def setupSpark():
+  # Spark needs to run with Java 8 ... 
+  !pip install -q findspark
+  !apt-get install openjdk-8-jdk-headless > /dev/null
+  !echo 2 | update-alternatives --config java > /dev/null
+  !java -version
+  import os, findspark
+  os.environ['JAVA_HOME'] = '/usr/lib/jvm/java-8-openjdk-amd64'
+  # !echo JAVA_HOME=$JAVA_HOME
+  !pip install -q pyspark
+  findspark.init(spark_home='/usr/local/lib/python3.7/dist-packages/pyspark')
+  !pyspark --version
+  
+setupSpark()
+
 from pyspark.sql import SparkSession
 import pandas as pd
 from  statsmodels.tsa.arima.model import ARIMA
