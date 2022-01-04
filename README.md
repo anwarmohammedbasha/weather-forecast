@@ -12,7 +12,7 @@
 
 A weather forecast is a prediction of how the weather will be the following day or the following several days. Based on input information such as city, date, and temperature, [this](https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py) application can forecast the weather for cities in Tamil Nadu for the next seven days.  
 
-We gathered the weather data for Tamil Nadu with the help of [**WeatherAPI.com**](https://www.weatherapi.com/), a free weather API provider, and [**WayScript**](https://wayscript.com/), a scripting platform. We have been gathering data since Arpil 2021. We directly import the data into **Github** to ensure that the data is updated. We pre-processed the data with the help of *pandas*, a Python package, to make it suitable for modelling. We use *ARIMA*, a statistical analysis model, to foresee potential trends. For modelling, we utilise the *statsmodels* package. Finally, we build web apps with [**Streamlit**](https://streamlit.io/), a Python framework.
+We gathered the weather data for Tamil Nadu from [NASA Prediction Of Worldwide Energy Resources](https://power.larc.nasa.gov/). We have data from January 2010 until the present. We directly import the data into **Github** to ensure that the data is updated. We pre-processed the data with the help of *pandas*, a Python package, to make it suitable for modelling. We use *ARIMA*, a statistical analysis model, to foresee potential trends. For modelling, we utilise the *statsmodels* package. Finally, we build web apps with [**Streamlit**](https://streamlit.io/), a Python framework.
 
 ### How to Use This Application
 
