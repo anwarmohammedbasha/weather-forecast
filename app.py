@@ -1,12 +1,12 @@
 # importing essential libraries
 
-from pyspark.sql import SparkSession
+#from pyspark.sql import SparkSession
 import pandas as pd
 from  statsmodels.tsa.arima.model import ARIMA
 from datetime import date, timedelta
 import streamlit as st 
 
-spark = SparkSession.builder.appName('forecast').getOrCreate()
+#spark = SparkSession.builder.appName('forecast').getOrCreate()
 
 st.write("""# Tamil Nadu Weather Forecast""")
 city =  st.selectbox('City', ('Ariyalur', 'Chennai', 'Coimbatore', 'Cuddalore',
@@ -21,15 +21,15 @@ city =  st.selectbox('City', ('Ariyalur', 'Chennai', 'Coimbatore', 'Cuddalore',
 
 # data preprocessing
 
-df = spark.read.csv("weatherData.csv", header=True)
-df = df[df.city == "Chennai"]['date', 'temp_c']
-df = pd.DataFrame(df.toPandas()).set_index(['date'])
-df = df['temp_c'].apply(lambda x: int(float(x)))
+#df = spark.read.csv("weatherData.csv", header=True)
+#df = df[df.city == "Chennai"]['date', 'temp_c']
+#df = pd.DataFrame(df.toPandas()).set_index(['date'])
+#df = df['temp_c'].apply(lambda x: int(float(x)))
 
-#df = pd.read_csv('weatherData.csv', parse_dates=True)
-#df = df.loc[df['city'] == city, ['date', 'temp_c']]
-#df.set_index(['date'], inplace=True)
-#df.dropna(inplace=True)
+df = pd.read_csv('weatherData.csv', parse_dates=True)
+df = df.loc[df['city'] == city, ['date', 'temp_c']]
+df.set_index(['date'], inplace=True)
+df.dropna(inplace=True)
 
 # model development
 
