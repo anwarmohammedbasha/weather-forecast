@@ -1,9 +1,5 @@
 # importing essential libraries
 
-
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-
-
 from pyspark.sql import SparkSession
 import pandas as pd
 from  statsmodels.tsa.arima.model import ARIMA
