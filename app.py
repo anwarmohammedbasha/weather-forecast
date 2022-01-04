@@ -32,7 +32,7 @@ model = ARIMA(df, order=(5,1,0)).fit()
 #st.write('Todays Weather in ', city ,int(model.forecast(steps=9)[1:2]), '°C')
 
 if st.button('Forecast'): 
-  for i in range(2, 8):
+  for i in range(2, 9):
     st.write('Date: ', date.today() + timedelta(i),
              'Weather: ', int(model.forecast(steps=10)[i+1:i+2]), '°C')
 else: pass
