@@ -19,7 +19,7 @@ city =  st.selectbox('City', ('Ariyalur', 'Chennai', 'Coimbatore', 'Cuddalore',
 # data preprocessing
 
 df = pd.read_csv('weatherData.csv', parse_dates=True)
-df = df.loc[df['city'] == city, ['localtime', 'temp_c']]
+df = df.loc[df['city'] == city, ['date', 'temp_c']]
 df.set_index(['date'], inplace=True)
 df.dropna(inplace=True)
 
