@@ -29,7 +29,7 @@ model = ARIMA(df, order=(5,1,0)).fit()
 
 # forecasting
 
-#st.write('Todays Weather in ', city ,int(model.forecast(steps=9)[1:2]), '°C')
+#st.write('Todays Weather in ', city ,int(model.forecast(steps=10)[1:2]), '°C')
 
 if st.button('Forecast'): 
   for i in range(2, 8):
