@@ -27,4 +27,11 @@ We gathered the weather data for Tamil Nadu from [NASA Prediction Of Worldwide E
 #### Step 3: After selecting the cities, the current weather will be displayed. To forecast the weather for the next seven days, click the forcast button.
 ![Screenshot](/images/Screenshot3.png)
 
+
+
+```
+df = df[df.city == "Dindigul"]['date', 'temp_c']
+df = pd.DataFrame(df.toPandas()).set_index(['date'])
+df = df['temp_c'].apply(lambda x: int(float(x)))
+```
 Email questions and comments to anwarmohamedbasha@gmail.com
