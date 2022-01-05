@@ -1,21 +1,16 @@
 import pandas as pd
-from pyspark.sql import SparkSession
 from  statsmodels.tsa.arima.model import ARIMA
 from datetime import date, timedelta
 import streamlit as st 
-
-spark = SparkSession.builder.appName('forecast').getOrCreate()
 
 st.write("""# Tamil Nadu Weather Forecast""")
 city =  st.selectbox('City', ('Ariyalur', 'Chennai', 'Coimbatore', 'Cuddalore', 'Dharmapuri', 'Dindigul', 'Erode', 'Kancheepuram', 'Kanyakumari', 'Karur',
                               'Krishnagiri', 'Madurai', 'Nagapattinam', 'Namakkal', 'Perambalur', 'Pudukkottai', 'Ramanathapuram', 'Salem', 'Sivaganga',
                               'Thanjavur', 'Thiruvarur', 'Tiruchirappalli', 'Tirunelveli', 'Tirupur', 'Tiruvallur', 'Tiruvannamalai', 'Vellore', 'Villupuram'))
 
-df = spark.read.csv("weatherData.csv", header=True)
-df = df[df.city == city]['date', 'temp_c']
-df = pd.DataFrame(df.toPandas()).set_index(['date'])
-df = df['temp_c'].apply(lambda x: int(float(x)))
-
+df = pd.read_csv('weatherData.csv', parse_dates=True)
+df = df.loc[df['city'] == city, ['date', 'temp_c']]
+df.set_index(['date'], inplace=True)
 model = ARIMA(df, order=(5,1,0)).fit()
 
 st.write('Todays Weather in ', city ,int(model.forecast(steps=9)[1:2]), '°C')
