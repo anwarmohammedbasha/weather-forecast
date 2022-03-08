@@ -1,4 +1,4 @@
-## Mini Project 
+## Tamil Nadu Weather Forecasting
 
 Application Link: https://share.streamlit.io/anwarmohammedbasha/weather-forecast/main/app.py
 
